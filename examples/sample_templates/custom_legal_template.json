@@ -1,0 +1,41 @@
+{
+  "知识产权保护流程图": {
+    "type": "flowchart",
+    "description": "展示知识产权保护的完整流程",
+    "layout": "vertical",
+    "default_text": "知识产权申请\n形式审查\n实质审查\n公告期\n授权决定\n权利维护\n侵权处理",
+    "style": {
+      "start_color": "#90EE90",
+      "process_color": "#87CEEB",
+      "end_color": "#FFB6C1",
+      "font_size": 11,
+      "line_width": 2,
+      "box_style": "round"
+    }
+  },
+  "合同法律关系图": {
+    "type": "network",
+    "description": "展示合同法律关系的主体和客体",
+    "layout": "circular",
+    "default_text": "合同主体\n合同客体\n合同内容\n权利义务\n违约责任\n争议解决",
+    "style": {
+      "node_color": "#FFD700",
+      "line_color": "#000000",
+      "font_size": 10,
+      "line_width": 1,
+      "connection_style": "curved"
+    }
+  },
+  "法律解释方法图": {
+    "type": "hierarchy",
+    "description": "展示法律解释的不同方法",
+    "layout": "vertical",
+    "default_text": "法律解释\n文义解释\n体系解释\n历史解释\n目的解释\n比较解释",
+    "style": {
+      "colors": ["#2E86AB", "#A23B72", "#F18F01", "#C73E1D", "#592E83"],
+      "font_size": 12,
+      "line_width": 2,
+      "box_style": "rounded"
+    }
+  }
+} 

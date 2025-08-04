@@ -1,0 +1,269 @@
+{
+  "学术论文研究框架图": {
+    "type": "framework",
+    "description": "展示学术论文的研究框架和结构",
+    "layout": "grid",
+    "default_text": "研究背景\n文献综述\n理论框架\n研究方法\n数据分析\n结论建议",
+    "style": {
+      "box_color": "#E8F4FD",
+      "font_size": 11,
+      "line_width": 2,
+      "border_color": "#2E86AB"
+    }
+  },
+  "研究假设验证图": {
+    "type": "flowchart",
+    "description": "展示研究假设的验证流程",
+    "layout": "vertical",
+    "default_text": "提出假设\n理论分析\n实证检验\n结果分析\n假设验证",
+    "style": {
+      "start_color": "#D4EDDA",
+      "process_color": "#D1ECF1",
+      "end_color": "#F8D7DA",
+      "font_size": 11,
+      "line_width": 2
+    }
+  },
+  "文献综述关系图": {
+    "type": "network",
+    "description": "展示文献之间的引用和关联关系",
+    "layout": "circular",
+    "default_text": "核心文献\n相关研究\n理论基础\n实证研究\n政策建议",
+    "style": {
+      "node_color": "#F0F8FF",
+      "line_color": "#4682B4",
+      "font_size": 10,
+      "line_width": 1,
+      "connection_style": "curved"
+    }
+  },
+  "理论模型构建图": {
+    "type": "hierarchy",
+    "description": "展示理论模型的构建层次",
+    "layout": "vertical",
+    "default_text": "理论基础\n概念界定\n变量设计\n模型构建\n实证检验",
+    "style": {
+      "colors": ["#2E86AB", "#A23B72", "#F18F01", "#C73E1D", "#592E83"],
+      "font_size": 12,
+      "line_width": 2
+    }
+  },
+  "研究方法选择图": {
+    "type": "decision_tree",
+    "description": "展示研究方法的选择逻辑",
+    "layout": "tree",
+    "default_text": "研究问题\n定性研究\n定量研究\n混合方法\n数据收集",
+    "style": {
+      "decision_color": "#FFE4B5",
+      "result_color": "#E6E6FA",
+      "font_size": 10,
+      "line_width": 2
+    }
+  },
+  "数据分析流程图": {
+    "type": "flowchart",
+    "description": "展示数据分析的完整流程",
+    "layout": "horizontal",
+    "default_text": "数据收集\n数据清洗\n描述统计\n假设检验\n结果解释",
+    "style": {
+      "start_color": "#E8F5E8",
+      "process_color": "#E3F2FD",
+      "end_color": "#FFF3E0",
+      "font_size": 11,
+      "line_width": 2
+    }
+  },
+  "研究贡献总结图": {
+    "type": "framework",
+    "description": "展示研究的理论贡献和实践意义",
+    "layout": "grid",
+    "default_text": "理论贡献\n方法创新\n实证发现\n政策启示\n研究局限",
+    "style": {
+      "box_color": "#F5F5DC",
+      "font_size": 11,
+      "line_width": 2,
+      "border_color": "#8B4513"
+    }
+  },
+  "概念框架图": {
+    "type": "network",
+    "description": "展示研究概念之间的关系框架",
+    "layout": "circular",
+    "default_text": "自变量\n因变量\n中介变量\n调节变量\n控制变量",
+    "style": {
+      "node_color": "#F0F8FF",
+      "line_color": "#4169E1",
+      "font_size": 10,
+      "line_width": 1
+    }
+  },
+  "研究设计图": {
+    "type": "hierarchy",
+    "description": "展示研究设计的整体架构",
+    "layout": "vertical",
+    "default_text": "研究目标\n研究问题\n研究假设\n研究设计\n预期结果",
+    "style": {
+      "colors": ["#4B0082", "#8A2BE2", "#9370DB", "#BA55D3", "#DDA0DD"],
+      "font_size": 12,
+      "line_width": 2
+    }
+  },
+  "学术论证逻辑图": {
+    "type": "flowchart",
+    "description": "展示学术论证的逻辑链条",
+    "layout": "vertical",
+    "default_text": "问题提出\n文献回顾\n理论分析\n实证检验\n结论论证",
+    "style": {
+      "start_color": "#F0F8FF",
+      "process_color": "#E6E6FA",
+      "end_color": "#D8BFD8",
+      "font_size": 11,
+      "line_width": 2
+    }
+  },
+  "研究创新点图": {
+    "type": "framework",
+    "description": "展示研究的创新点和突破",
+    "layout": "grid",
+    "default_text": "理论创新\n方法创新\n数据创新\n应用创新\n政策创新",
+    "style": {
+      "box_color": "#FFFACD",
+      "font_size": 11,
+      "line_width": 2,
+      "border_color": "#FFD700"
+    }
+  },
+  "学术影响路径图": {
+    "type": "network",
+    "description": "展示学术研究的影响路径",
+    "layout": "circular",
+    "default_text": "学术影响\n政策影响\n社会影响\n国际影响\n未来影响",
+    "style": {
+      "node_color": "#F0FFF0",
+      "line_color": "#228B22",
+      "font_size": 10,
+      "line_width": 1,
+      "connection_style": "curved"
+    }
+  },
+  "论文结构图": {
+    "type": "hierarchy",
+    "description": "展示学术论文的整体结构",
+    "layout": "vertical",
+    "default_text": "摘要\n引言\n文献综述\n理论分析\n实证研究\n结论",
+    "style": {
+      "colors": ["#1E90FF", "#4169E1", "#6495ED", "#87CEEB", "#B0E0E6", "#F0F8FF"],
+      "font_size": 12,
+      "line_width": 2
+    }
+  },
+  "研究问题演化图": {
+    "type": "flowchart",
+    "description": "展示研究问题的演化过程",
+    "layout": "horizontal",
+    "default_text": "初始问题\n文献分析\n问题细化\n理论构建\n实证检验",
+    "style": {
+      "start_color": "#E6F3FF",
+      "process_color": "#F0F8FF",
+      "end_color": "#E0F6FF",
+      "font_size": 11,
+      "line_width": 2
+    }
+  },
+  "理论发展脉络图": {
+    "type": "network",
+    "description": "展示理论发展的历史脉络",
+    "layout": "circular",
+    "default_text": "古典理论\n现代理论\n当代理论\n前沿理论\n未来方向",
+    "style": {
+      "node_color": "#F5F5F5",
+      "line_color": "#696969",
+      "font_size": 10,
+      "line_width": 1
+    }
+  },
+  "实证研究设计图": {
+    "type": "decision_tree",
+    "description": "展示实证研究的设计选择",
+    "layout": "tree",
+    "default_text": "研究类型\n样本选择\n数据来源\n分析方法\n结果验证",
+    "style": {
+      "decision_color": "#FFE4E1",
+      "result_color": "#F0F8FF",
+      "font_size": 10,
+      "line_width": 2
+    }
+  },
+  "学术贡献评估图": {
+    "type": "framework",
+    "description": "展示学术贡献的评估维度",
+    "layout": "grid",
+    "default_text": "理论贡献\n方法贡献\n实证贡献\n政策贡献\n社会贡献",
+    "style": {
+      "box_color": "#FDF5E6",
+      "font_size": 11,
+      "line_width": 2,
+      "border_color": "#DAA520"
+    }
+  },
+  "研究局限性分析图": {
+    "type": "network",
+    "description": "展示研究的局限性和不足",
+    "layout": "circular",
+    "default_text": "样本局限\n方法局限\n数据局限\n理论局限\n应用局限",
+    "style": {
+      "node_color": "#FFF0F5",
+      "line_color": "#DC143C",
+      "font_size": 10,
+      "line_width": 1
+    }
+  },
+  "未来研究方向图": {
+    "type": "hierarchy",
+    "description": "展示未来研究的发展方向",
+    "layout": "vertical",
+    "default_text": "理论拓展\n方法改进\n数据扩展\n应用深化\n政策建议",
+    "style": {
+      "colors": ["#32CD32", "#228B22", "#006400", "#008000", "#90EE90"],
+      "font_size": 12,
+      "line_width": 2
+    }
+  },
+  "学术影响评估图": {
+    "type": "framework",
+    "description": "展示学术影响的评估框架",
+    "layout": "grid",
+    "default_text": "引用影响\n政策影响\n社会影响\n国际影响\n长期影响",
+    "style": {
+      "box_color": "#E6E6FA",
+      "font_size": 11,
+      "line_width": 2,
+      "border_color": "#9370DB"
+    }
+  },
+  "研究质量评估图": {
+    "type": "network",
+    "description": "展示研究质量的评估标准",
+    "layout": "circular",
+    "default_text": "理论质量\n方法质量\n数据质量\n分析质量\n结论质量",
+    "style": {
+      "node_color": "#F0FFF0",
+      "line_color": "#228B22",
+      "font_size": 10,
+      "line_width": 1
+    }
+  },
+  "学术创新路径图": {
+    "type": "flowchart",
+    "description": "展示学术创新的发展路径",
+    "layout": "vertical",
+    "default_text": "问题识别\n理论突破\n方法创新\n实证验证\n成果转化",
+    "style": {
+      "start_color": "#FFE4B5",
+      "process_color": "#FFDAB9",
+      "end_color": "#FFE4C4",
+      "font_size": 11,
+      "line_width": 2
+    }
+  }
+} 

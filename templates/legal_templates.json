@@ -1,0 +1,232 @@
+{
+  "法律条文关系图": {
+    "type": "hierarchy",
+    "description": "展示法律条文之间的层级关系",
+    "layout": "vertical",
+    "default_text": "宪法\n基本法\n行政法规\n部门规章\n地方性法规",
+    "style": {
+      "colors": ["#FF6B6B", "#4ECDC4", "#45B7D1", "#96CEB4", "#FFEAA7"],
+      "font_size": 12,
+      "line_width": 2
+    }
+  },
+  "案例分析流程图": {
+    "type": "flowchart",
+    "description": "展示案例分析的逻辑流程",
+    "layout": "horizontal",
+    "default_text": "案件受理\n事实认定\n法律适用\n判决结果\n执行程序",
+    "style": {
+      "start_color": "#90EE90",
+      "process_color": "#87CEEB",
+      "end_color": "#FFB6C1",
+      "font_size": 11,
+      "line_width": 2
+    }
+  },
+  "法律概念网络图": {
+    "type": "network",
+    "description": "展示法律概念之间的关联关系",
+    "layout": "circular",
+    "default_text": "权利\n义务\n责任\n法律关系\n法律行为",
+    "style": {
+      "node_color": "#FFD700",
+      "line_color": "#000000",
+      "font_size": 10,
+      "line_width": 1
+    }
+  },
+  "判决逻辑树": {
+    "type": "decision_tree",
+    "description": "展示判决推理的逻辑结构",
+    "layout": "tree",
+    "default_text": "案件事实\n法律适用\n证据认定\n判决理由\n判决结果",
+    "style": {
+      "decision_color": "#FFA07A",
+      "result_color": "#98FB98",
+      "font_size": 10,
+      "line_width": 2
+    }
+  },
+  "法律体系框架图": {
+    "type": "framework",
+    "description": "展示法律体系的整体框架",
+    "layout": "grid",
+    "default_text": "公法\n私法\n社会法\n程序法\n实体法",
+    "style": {
+      "box_color": "#E6E6FA",
+      "font_size": 11,
+      "line_width": 2
+    }
+  },
+  "诉讼程序图": {
+    "type": "flowchart",
+    "description": "展示诉讼程序的完整流程",
+    "layout": "vertical",
+    "default_text": "起诉\n立案\n送达\n开庭\n判决\n上诉\n执行",
+    "style": {
+      "start_color": "#90EE90",
+      "process_color": "#87CEEB",
+      "end_color": "#FFB6C1",
+      "font_size": 10,
+      "line_width": 2
+    }
+  },
+  "法律渊源图": {
+    "type": "hierarchy",
+    "description": "展示法律渊源的层级结构",
+    "layout": "vertical",
+    "default_text": "成文法\n判例法\n习惯法\n法理\n国际法",
+    "style": {
+      "colors": ["#FF6B6B", "#4ECDC4", "#45B7D1", "#96CEB4", "#FFEAA7"],
+      "font_size": 12,
+      "line_width": 2
+    }
+  },
+  "学术论文研究框架图": {
+    "type": "framework",
+    "description": "展示学术论文的研究框架和结构",
+    "layout": "grid",
+    "default_text": "研究背景\n文献综述\n理论框架\n研究方法\n数据分析\n结论建议",
+    "style": {
+      "box_color": "#E8F4FD",
+      "font_size": 11,
+      "line_width": 2,
+      "border_color": "#2E86AB"
+    }
+  },
+  "研究假设验证图": {
+    "type": "flowchart",
+    "description": "展示研究假设的验证流程",
+    "layout": "vertical",
+    "default_text": "提出假设\n理论分析\n实证检验\n结果分析\n假设验证",
+    "style": {
+      "start_color": "#D4EDDA",
+      "process_color": "#D1ECF1",
+      "end_color": "#F8D7DA",
+      "font_size": 11,
+      "line_width": 2
+    }
+  },
+  "文献综述关系图": {
+    "type": "network",
+    "description": "展示文献之间的引用和关联关系",
+    "layout": "circular",
+    "default_text": "核心文献\n相关研究\n理论基础\n实证研究\n政策建议",
+    "style": {
+      "node_color": "#F0F8FF",
+      "line_color": "#4682B4",
+      "font_size": 10,
+      "line_width": 1,
+      "connection_style": "curved"
+    }
+  },
+  "理论模型构建图": {
+    "type": "hierarchy",
+    "description": "展示理论模型的构建层次",
+    "layout": "vertical",
+    "default_text": "理论基础\n概念界定\n变量设计\n模型构建\n实证检验",
+    "style": {
+      "colors": ["#2E86AB", "#A23B72", "#F18F01", "#C73E1D", "#592E83"],
+      "font_size": 12,
+      "line_width": 2
+    }
+  },
+  "研究方法选择图": {
+    "type": "decision_tree",
+    "description": "展示研究方法的选择逻辑",
+    "layout": "tree",
+    "default_text": "研究问题\n定性研究\n定量研究\n混合方法\n数据收集",
+    "style": {
+      "decision_color": "#FFE4B5",
+      "result_color": "#E6E6FA",
+      "font_size": 10,
+      "line_width": 2
+    }
+  },
+  "数据分析流程图": {
+    "type": "flowchart",
+    "description": "展示数据分析的完整流程",
+    "layout": "horizontal",
+    "default_text": "数据收集\n数据清洗\n描述统计\n假设检验\n结果解释",
+    "style": {
+      "start_color": "#E8F5E8",
+      "process_color": "#E3F2FD",
+      "end_color": "#FFF3E0",
+      "font_size": 11,
+      "line_width": 2
+    }
+  },
+  "研究贡献总结图": {
+    "type": "framework",
+    "description": "展示研究的理论贡献和实践意义",
+    "layout": "grid",
+    "default_text": "理论贡献\n方法创新\n实证发现\n政策启示\n研究局限",
+    "style": {
+      "box_color": "#F5F5DC",
+      "font_size": 11,
+      "line_width": 2,
+      "border_color": "#8B4513"
+    }
+  },
+  "概念框架图": {
+    "type": "network",
+    "description": "展示研究概念之间的关系框架",
+    "layout": "circular",
+    "default_text": "自变量\n因变量\n中介变量\n调节变量\n控制变量",
+    "style": {
+      "node_color": "#F0F8FF",
+      "line_color": "#4169E1",
+      "font_size": 10,
+      "line_width": 1
+    }
+  },
+  "研究设计图": {
+    "type": "hierarchy",
+    "description": "展示研究设计的整体架构",
+    "layout": "vertical",
+    "default_text": "研究目标\n研究问题\n研究假设\n研究设计\n预期结果",
+    "style": {
+      "colors": ["#4B0082", "#8A2BE2", "#9370DB", "#BA55D3", "#DDA0DD"],
+      "font_size": 12,
+      "line_width": 2
+    }
+  },
+  "学术论证逻辑图": {
+    "type": "flowchart",
+    "description": "展示学术论证的逻辑链条",
+    "layout": "vertical",
+    "default_text": "问题提出\n文献回顾\n理论分析\n实证检验\n结论论证",
+    "style": {
+      "start_color": "#F0F8FF",
+      "process_color": "#E6E6FA",
+      "end_color": "#D8BFD8",
+      "font_size": 11,
+      "line_width": 2
+    }
+  },
+  "研究创新点图": {
+    "type": "framework",
+    "description": "展示研究的创新点和突破",
+    "layout": "grid",
+    "default_text": "理论创新\n方法创新\n数据创新\n应用创新\n政策创新",
+    "style": {
+      "box_color": "#FFFACD",
+      "font_size": 11,
+      "line_width": 2,
+      "border_color": "#FFD700"
+    }
+  },
+  "学术影响路径图": {
+    "type": "network",
+    "description": "展示学术研究的影响路径",
+    "layout": "circular",
+    "default_text": "学术影响\n政策影响\n社会影响\n国际影响\n未来影响",
+    "style": {
+      "node_color": "#F0FFF0",
+      "line_color": "#228B22",
+      "font_size": 10,
+      "line_width": 1,
+      "connection_style": "curved"
+    }
+  }
+} 

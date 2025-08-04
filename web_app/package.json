@@ -1,0 +1,56 @@
+{
+  "name": "legal-research-drawing-web",
+  "version": "3.0.0",
+  "description": "法学研究科研绘图辅助网站 - 专为法学研究人员设计的学术绘图工具",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "vite preview --port 3000",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "keywords": [
+    "法学研究",
+    "科研绘图",
+    "学术配图",
+    "法律图表",
+    "模板管理",
+    "AI绘图"
+  ],
+  "author": "Legal Research Drawing Team",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4",
+    "pinia": "^2.1.6",
+    "axios": "^1.5.0",
+    "element-plus": "^2.3.9",
+    "@element-plus/icons-vue": "^2.1.0",
+    "fabric": "^5.3.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "file-saver": "^2.0.5",
+    "lodash": "^4.17.21",
+    "dayjs": "^1.11.9",
+    "marked": "^7.0.2",
+    "highlight.js": "^11.8.0",
+    "vue-cropper": "^1.0.3",
+    "sortablejs": "^1.15.0",
+    "vue-draggable-next": "^2.2.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.3.4",
+    "vite": "^4.4.9",
+    "sass": "^1.66.1",
+    "gh-pages": "^5.0.0",
+    "@types/lodash": "^4.14.199",
+    "typescript": "^5.2.2",
+    "@types/node": "^20.5.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/legal-research-drawing-web.git"
+  },
+  "homepage": "https://your-username.github.io/legal-research-drawing-web"
+} 
